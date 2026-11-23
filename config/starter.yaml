@@ -1,0 +1,33 @@
+# Oryva Planning - Starter Configuration
+seed: 20261022
+year: 2026
+planning_horizon_weeks: 52
+description: "Starter scale benchmark for rapid development, testing, and CI verification"
+
+scale:
+  name: "starter"
+  num_skus: 50
+  num_locations: 5
+  num_suppliers: 10
+  num_inbound_pos: 100
+  avg_substitutes_per_sku: 1
+  avg_suppliers_per_sku: 2
+
+anomaly_injection:
+  enabled: true
+  inbound_double_count_n: 2
+  unapproved_substitute_n: 2
+  supplier_capacity_exceeded_n: 2
+  shortage_without_lead_time_n: 2
+  uom_mismatch_n: 2
+
+mitigation:
+  weights:
+    service_level: 0.50
+    cost: 0.30
+    lead_time: 0.20
+
+paths:
+  input_dir: "data/inputs"
+  ground_truth_dir: "data/ground_truth"
+  export_dir: "data/exports"

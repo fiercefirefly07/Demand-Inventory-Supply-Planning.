@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .[dev]
+
+      - name: Run unit test suite
+        run: |
+          pytest tests/ -v --tb=short
+
+      - name: Verify CLI schema inspection
+        run: |
+          python -m oryva_planning.cli inspect-schema --export-markdown docs/data_dictionary.md --export-ddl docs/schema.sql
+
+      - name: Test generation stub with starter scale
+        run: |
+          python -m oryva_planning.cli generate --config config/starter.yaml

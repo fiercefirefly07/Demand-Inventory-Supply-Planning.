@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oryva-planning"
+version = "0.1.0"
+description = "Oryva AI - Demand, Inventory & Supply Planning Engine"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Oryva AI Engineering", email = "engineering@oryva.ai" }
+]
+dependencies = [
+    "numpy>=1.26.0",
+    "pandas>=2.0.0",
+    "duckdb>=1.0.0",
+    "pydantic>=2.5.0",
+    "typer>=0.9.0",
+    "pyyaml>=6.0.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+]
+
+[project.scripts]
+oryva-planning = "oryva_planning.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
