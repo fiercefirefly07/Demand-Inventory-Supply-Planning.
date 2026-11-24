@@ -1,15 +1,17 @@
-.PHONY: setup generate-starter generate-full validate test repro clean help
+.PHONY: setup generate-starter generate-full validate test repro detect-anomalies export clean help
 
 PYTHON ?= python
 
 help:
 	@echo "Available commands:"
 	@echo "  make setup            - Install project dependencies in editable mode"
-	@echo "  make generate-starter - Run synthetic generator with starter scale"
-	@echo "  make generate-full    - Run synthetic generator with full scale"
-	@echo "  make validate         - Run SQL and schema validation checks"
+	@echo "  make generate-starter - Run synthetic generator & planning engine with starter scale"
+	@echo "  make generate-full    - Run synthetic generator & planning engine with full scale"
+	@echo "  make validate         - Run DuckDB SQL and schema validation checks"
 	@echo "  make test             - Run pytest test suite"
 	@echo "  make repro            - Verify determinism and generate reproducibility report"
+	@echo "  make detect-anomalies - Run 5 anomaly injectors and evaluate detector precision/recall"
+	@echo "  make export           - Export datasets to CSV, JSON, SQL seed, and SQLite database"
 	@echo "  make clean            - Remove build artifacts and temporary caches"
 
 setup:
@@ -22,13 +24,19 @@ generate-full:
 	$(PYTHON) -m oryva_planning.cli generate --config config/full.yaml
 
 validate:
-	$(PYTHON) -m oryva_planning.cli validate --data-dir data/inputs
+	$(PYTHON) -m oryva_planning.cli validate --config config/starter.yaml
 
 test:
 	$(PYTHON) -m pytest tests/
 
 repro:
 	$(PYTHON) -m oryva_planning.cli repro --config config/starter.yaml
+
+detect-anomalies:
+	$(PYTHON) -m oryva_planning.cli detect-anomalies --config config/starter.yaml
+
+export:
+	$(PYTHON) -m oryva_planning.cli export --config config/starter.yaml
 
 clean:
 	$(PYTHON) -c "import shutil, pathlib; [shutil.rmtree(p, ignore_errors=True) for p in pathlib.Path('.').rglob('__pycache__')]"

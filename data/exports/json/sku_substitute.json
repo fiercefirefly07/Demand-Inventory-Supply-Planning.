@@ -1,0 +1,452 @@
+[
+  {
+    "substitute_id": "SUB-SKU-000003-SKU-000002",
+    "primary_sku_id": "SKU-000003",
+    "substitute_sku_id": "SKU-000002",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000004-SKU-000010",
+    "primary_sku_id": "SKU-000004",
+    "substitute_sku_id": "SKU-000010",
+    "conversion_rate": 0.8,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000004-SKU-000018",
+    "primary_sku_id": "SKU-000004",
+    "substitute_sku_id": "SKU-000018",
+    "conversion_rate": 1.2,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000005-SKU-000022",
+    "primary_sku_id": "SKU-000005",
+    "substitute_sku_id": "SKU-000022",
+    "conversion_rate": 0.8,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000006-SKU-000028",
+    "primary_sku_id": "SKU-000006",
+    "substitute_sku_id": "SKU-000028",
+    "conversion_rate": 1.2,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000007-SKU-000024",
+    "primary_sku_id": "SKU-000007",
+    "substitute_sku_id": "SKU-000024",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000010-SKU-000006",
+    "primary_sku_id": "SKU-000010",
+    "substitute_sku_id": "SKU-000006",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000010-SKU-000014",
+    "primary_sku_id": "SKU-000010",
+    "substitute_sku_id": "SKU-000014",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000011-SKU-000022",
+    "primary_sku_id": "SKU-000011",
+    "substitute_sku_id": "SKU-000022",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000011-SKU-000033",
+    "primary_sku_id": "SKU-000011",
+    "substitute_sku_id": "SKU-000033",
+    "conversion_rate": 1.2,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000012-SKU-000013",
+    "primary_sku_id": "SKU-000012",
+    "substitute_sku_id": "SKU-000013",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000013-SKU-000012",
+    "primary_sku_id": "SKU-000013",
+    "substitute_sku_id": "SKU-000012",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000013-SKU-000014",
+    "primary_sku_id": "SKU-000013",
+    "substitute_sku_id": "SKU-000014",
+    "conversion_rate": 0.8,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000015-SKU-000023",
+    "primary_sku_id": "SKU-000015",
+    "substitute_sku_id": "SKU-000023",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000015-SKU-000024",
+    "primary_sku_id": "SKU-000015",
+    "substitute_sku_id": "SKU-000024",
+    "conversion_rate": 0.8,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000016-SKU-000033",
+    "primary_sku_id": "SKU-000016",
+    "substitute_sku_id": "SKU-000033",
+    "conversion_rate": 1.2,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000017-SKU-000031",
+    "primary_sku_id": "SKU-000017",
+    "substitute_sku_id": "SKU-000031",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000018-SKU-000010",
+    "primary_sku_id": "SKU-000018",
+    "substitute_sku_id": "SKU-000010",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000018-SKU-000049",
+    "primary_sku_id": "SKU-000018",
+    "substitute_sku_id": "SKU-000049",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000019-SKU-000029",
+    "primary_sku_id": "SKU-000019",
+    "substitute_sku_id": "SKU-000029",
+    "conversion_rate": 1.2,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000020-SKU-000025",
+    "primary_sku_id": "SKU-000020",
+    "substitute_sku_id": "SKU-000025",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000021-SKU-000009",
+    "primary_sku_id": "SKU-000021",
+    "substitute_sku_id": "SKU-000009",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000021-SKU-000033",
+    "primary_sku_id": "SKU-000021",
+    "substitute_sku_id": "SKU-000033",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000022-SKU-000029",
+    "primary_sku_id": "SKU-000022",
+    "substitute_sku_id": "SKU-000029",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000023-SKU-000024",
+    "primary_sku_id": "SKU-000023",
+    "substitute_sku_id": "SKU-000024",
+    "conversion_rate": 0.8,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000025-SKU-000002",
+    "primary_sku_id": "SKU-000025",
+    "substitute_sku_id": "SKU-000002",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000025-SKU-000008",
+    "primary_sku_id": "SKU-000025",
+    "substitute_sku_id": "SKU-000008",
+    "conversion_rate": 1.2,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000026-SKU-000041",
+    "primary_sku_id": "SKU-000026",
+    "substitute_sku_id": "SKU-000041",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000027-SKU-000040",
+    "primary_sku_id": "SKU-000027",
+    "substitute_sku_id": "SKU-000040",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000030-SKU-000005",
+    "primary_sku_id": "SKU-000030",
+    "substitute_sku_id": "SKU-000005",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000030-SKU-000036",
+    "primary_sku_id": "SKU-000030",
+    "substitute_sku_id": "SKU-000036",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000031-SKU-000021",
+    "primary_sku_id": "SKU-000031",
+    "substitute_sku_id": "SKU-000021",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000034-SKU-000013",
+    "primary_sku_id": "SKU-000034",
+    "substitute_sku_id": "SKU-000013",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000034-SKU-000049",
+    "primary_sku_id": "SKU-000034",
+    "substitute_sku_id": "SKU-000049",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000036-SKU-000019",
+    "primary_sku_id": "SKU-000036",
+    "substitute_sku_id": "SKU-000019",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000036-SKU-000037",
+    "primary_sku_id": "SKU-000036",
+    "substitute_sku_id": "SKU-000037",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000037-SKU-000048",
+    "primary_sku_id": "SKU-000037",
+    "substitute_sku_id": "SKU-000048",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000038-SKU-000014",
+    "primary_sku_id": "SKU-000038",
+    "substitute_sku_id": "SKU-000014",
+    "conversion_rate": 1.2,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000038-SKU-000047",
+    "primary_sku_id": "SKU-000038",
+    "substitute_sku_id": "SKU-000047",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000040-SKU-000003",
+    "primary_sku_id": "SKU-000040",
+    "substitute_sku_id": "SKU-000003",
+    "conversion_rate": 1.2,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000042-SKU-000002",
+    "primary_sku_id": "SKU-000042",
+    "substitute_sku_id": "SKU-000002",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000042-SKU-000008",
+    "primary_sku_id": "SKU-000042",
+    "substitute_sku_id": "SKU-000008",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000045-SKU-000035",
+    "primary_sku_id": "SKU-000045",
+    "substitute_sku_id": "SKU-000035",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000046-SKU-000002",
+    "primary_sku_id": "SKU-000046",
+    "substitute_sku_id": "SKU-000002",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000046-SKU-000027",
+    "primary_sku_id": "SKU-000046",
+    "substitute_sku_id": "SKU-000027",
+    "conversion_rate": 0.8,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000047-SKU-000018",
+    "primary_sku_id": "SKU-000047",
+    "substitute_sku_id": "SKU-000018",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000049-SKU-000006",
+    "primary_sku_id": "SKU-000049",
+    "substitute_sku_id": "SKU-000006",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000049-SKU-000013",
+    "primary_sku_id": "SKU-000049",
+    "substitute_sku_id": "SKU-000013",
+    "conversion_rate": 1.0,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000050-SKU-000007",
+    "primary_sku_id": "SKU-000050",
+    "substitute_sku_id": "SKU-000007",
+    "conversion_rate": 1.2,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "substitute_id": "SUB-SKU-000050-SKU-000039",
+    "primary_sku_id": "SKU-000050",
+    "substitute_sku_id": "SKU-000039",
+    "conversion_rate": 1.2,
+    "approved": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  }
+]

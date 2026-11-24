@@ -1,0 +1,6 @@
+location_id,name,type,region,holding_cost_per_unit_day,capacity_units,is_active,effective_start_date,effective_end_date
+LOC-0001,Chicago Assembly & Production Plant,MANUFACTURING_PLANT,North America - Midwest,0.0300,436711,True,2026-01-01,2026-12-31
+LOC-0002,Dallas Assembly & Production Plant,MANUFACTURING_PLANT,North America - South,0.0268,528727,True,2026-01-01,2026-12-31
+LOC-0003,Atlanta Satellite Transit Warehouse,SATELLITE_WH,North America - Southeast,0.0632,148337,True,2026-01-01,2026-12-31
+LOC-0004,Los Angeles Regional Fulfillment Center,REGIONAL_DC,North America - West,0.0314,1144211,True,2026-01-01,2026-12-31
+LOC-0005,Memphis Global Distribution Hub,CENTRAL_HUB,North America - Central,0.0376,2196574,True,2026-01-01,2026-12-31

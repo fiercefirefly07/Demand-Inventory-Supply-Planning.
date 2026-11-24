@@ -32,10 +32,26 @@ jobs:
         run: |
           pytest tests/ -v --tb=short
 
-      - name: Verify CLI schema inspection
+      - name: Verify CLI schema inspection & Data Dictionary
         run: |
           python -m oryva_planning.cli inspect-schema --export-markdown docs/data_dictionary.md --export-ddl docs/schema.sql
 
-      - name: Test generation stub with starter scale
+      - name: Run generation and planning pipeline (starter scale)
         run: |
           python -m oryva_planning.cli generate --config config/starter.yaml
+
+      - name: Run DuckDB SQL validation suite
+        run: |
+          python -m oryva_planning.cli validate --config config/starter.yaml
+
+      - name: Run anomaly injection and detector precision/recall benchmark
+        run: |
+          python -m oryva_planning.cli detect-anomalies --config config/starter.yaml
+
+      - name: Run deterministic reproducibility audit
+        run: |
+          python -m oryva_planning.cli repro --config config/starter.yaml --report-path reproducibility_report.md
+
+      - name: Run multi-format exports (CSV, JSON, SQL seed, SQLite)
+        run: |
+          python -m oryva_planning.cli export --config config/starter.yaml --export-dir data/exports

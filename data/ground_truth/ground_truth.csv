@@ -1,0 +1,11 @@
+anomaly_id,issue_type,table_name,affected_id,expected_detection_rule,details
+ANOM-0001,double_counted_inbound,PurchaseOrder,PO-2026-900088,"Duplicate purchase orders having identical supplier, sku, location, dates, and order_qty",Cloned PO PO-2026-900088 duplicates original PO-2026-000088
+ANOM-0002,double_counted_inbound,PurchaseOrder,PO-2026-900052,"Duplicate purchase orders having identical supplier, sku, location, dates, and order_qty",Cloned PO PO-2026-900052 duplicates original PO-2026-000052
+ANOM-0003,unapproved_substitute,SkuSubstitute,SUB-SKU-000046-SKU-000002,Substitute relationship with approved = False,Substitute SUB-SKU-000046-SKU-000002 marked unapproved (approved=False)
+ANOM-0004,unapproved_substitute,SkuSubstitute,SUB-SKU-000026-SKU-000041,Substitute relationship with approved = False,Substitute SUB-SKU-000026-SKU-000041 marked unapproved (approved=False)
+ANOM-0005,supplier_capacity_exceeded,PurchaseOrder,PO-2026-000056,PO order_qty exceeds supplier weekly capacity ceiling,PO PO-2026-000056 quantity inflated to 12978.81 (capacity is 3708.23)
+ANOM-0006,supplier_capacity_exceeded,PurchaseOrder,PO-2026-000068,PO order_qty exceeds supplier weekly capacity ceiling,PO PO-2026-000068 quantity inflated to 15811.7 (capacity is 4517.63)
+ANOM-0007,shortage_without_lead_time,LeadTime,LT-000468,Lead time constraint set to 0 days (shortage evaluated without lead time),LeadTime record LT-000468 set to planned_lead_time_days = 0
+ANOM-0008,shortage_without_lead_time,LeadTime,LT-000341,Lead time constraint set to 0 days (shortage evaluated without lead time),LeadTime record LT-000341 set to planned_lead_time_days = 0
+ANOM-0009,uom_mismatch,PurchaseOrder,PO-2026-000061,Purchase order UOM mismatch with parent SKU master UOM,PO PO-2026-000061 has unit measure PALLET vs parent SKU SKU-000028 EA
+ANOM-0010,uom_mismatch,PurchaseOrder,PO-2026-000024,Purchase order UOM mismatch with parent SKU master UOM,PO PO-2026-000024 has unit measure PALLET vs parent SKU SKU-000002 EA

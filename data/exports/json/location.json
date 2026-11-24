@@ -1,0 +1,57 @@
+[
+  {
+    "location_id": "LOC-0001",
+    "name": "Chicago Assembly & Production Plant",
+    "type": "MANUFACTURING_PLANT",
+    "region": "North America - Midwest",
+    "holding_cost_per_unit_day": 0.03,
+    "capacity_units": 436711,
+    "is_active": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "location_id": "LOC-0002",
+    "name": "Dallas Assembly & Production Plant",
+    "type": "MANUFACTURING_PLANT",
+    "region": "North America - South",
+    "holding_cost_per_unit_day": 0.0268,
+    "capacity_units": 528727,
+    "is_active": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "location_id": "LOC-0003",
+    "name": "Atlanta Satellite Transit Warehouse",
+    "type": "SATELLITE_WH",
+    "region": "North America - Southeast",
+    "holding_cost_per_unit_day": 0.0632,
+    "capacity_units": 148337,
+    "is_active": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "location_id": "LOC-0004",
+    "name": "Los Angeles Regional Fulfillment Center",
+    "type": "REGIONAL_DC",
+    "region": "North America - West",
+    "holding_cost_per_unit_day": 0.0314,
+    "capacity_units": 1144211,
+    "is_active": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  },
+  {
+    "location_id": "LOC-0005",
+    "name": "Memphis Global Distribution Hub",
+    "type": "CENTRAL_HUB",
+    "region": "North America - Central",
+    "holding_cost_per_unit_day": 0.0376,
+    "capacity_units": 2196574,
+    "is_active": true,
+    "effective_start_date": "2026-01-01",
+    "effective_end_date": "2026-12-31"
+  }
+]

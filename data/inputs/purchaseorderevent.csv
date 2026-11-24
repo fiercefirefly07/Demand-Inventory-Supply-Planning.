@@ -1,0 +1,245 @@
+event_id,po_id,from_status,to_status,event_ts,event_reason,actor
+POE-2026-000001,PO-2026-000001,DRAFT,CONFIRMED,2026-10-01T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000002,PO-2026-000002,DRAFT,CONFIRMED,2026-09-28T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000003,PO-2026-000002,CONFIRMED,IN_TRANSIT,2026-10-12T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000004,PO-2026-000002,IN_TRANSIT,DELIVERED,2026-11-09T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000005,PO-2026-000003,DRAFT,CONFIRMED,2026-06-13T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000006,PO-2026-000003,CONFIRMED,IN_TRANSIT,2026-06-28T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000007,PO-2026-000003,IN_TRANSIT,DELIVERED,2026-07-03T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000008,PO-2026-000004,DRAFT,CONFIRMED,2026-03-22T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000009,PO-2026-000004,CONFIRMED,IN_TRANSIT,2026-03-24T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000010,PO-2026-000005,DRAFT,CONFIRMED,2026-02-26T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000011,PO-2026-000005,CONFIRMED,IN_TRANSIT,2026-04-03T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000012,PO-2026-000005,IN_TRANSIT,DELIVERED,2026-04-08T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000013,PO-2026-000006,DRAFT,CONFIRMED,2026-10-23T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000014,PO-2026-000006,CONFIRMED,IN_TRANSIT,2026-11-07T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000015,PO-2026-000006,IN_TRANSIT,DELIVERED,2026-11-12T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000016,PO-2026-000007,DRAFT,CONFIRMED,2026-11-29T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000017,PO-2026-000007,CONFIRMED,IN_TRANSIT,2026-11-30T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000018,PO-2026-000008,DRAFT,CONFIRMED,2026-04-02T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000019,PO-2026-000008,CONFIRMED,IN_TRANSIT,2026-04-17T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000020,PO-2026-000009,DRAFT,CONFIRMED,2026-10-11T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000021,PO-2026-000009,CONFIRMED,IN_TRANSIT,2026-11-12T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000022,PO-2026-000010,DRAFT,CONFIRMED,2026-02-10T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000023,PO-2026-000010,CONFIRMED,IN_TRANSIT,2026-02-26T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000024,PO-2026-000010,IN_TRANSIT,DELIVERED,2026-03-22T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000025,PO-2026-000011,DRAFT,CONFIRMED,2026-07-18T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000026,PO-2026-000011,CONFIRMED,IN_TRANSIT,2026-07-26T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000027,PO-2026-000012,DRAFT,CONFIRMED,2026-01-30T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000028,PO-2026-000012,CONFIRMED,IN_TRANSIT,2026-02-22T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000029,PO-2026-000013,DRAFT,CONFIRMED,2026-06-27T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000030,PO-2026-000013,CONFIRMED,IN_TRANSIT,2026-07-14T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000031,PO-2026-000013,IN_TRANSIT,DELIVERED,2026-07-19T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000032,PO-2026-000014,DRAFT,CONFIRMED,2026-08-11T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000033,PO-2026-000014,CONFIRMED,IN_TRANSIT,2026-08-13T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000034,PO-2026-000014,IN_TRANSIT,DELIVERED,2026-08-18T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000035,PO-2026-000015,DRAFT,CONFIRMED,2026-12-15T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000036,PO-2026-000015,CONFIRMED,IN_TRANSIT,2026-12-19T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000037,PO-2026-000015,IN_TRANSIT,DELIVERED,2026-12-24T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000038,PO-2026-000016,DRAFT,CONFIRMED,2026-10-14T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000039,PO-2026-000016,CONFIRMED,IN_TRANSIT,2026-10-19T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000040,PO-2026-000016,IN_TRANSIT,DELIVERED,2026-10-24T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000041,PO-2026-000017,DRAFT,CONFIRMED,2026-04-28T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000042,PO-2026-000018,DRAFT,CONFIRMED,2026-06-17T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000043,PO-2026-000018,CONFIRMED,IN_TRANSIT,2026-06-25T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000044,PO-2026-000018,IN_TRANSIT,DELIVERED,2026-06-30T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000045,PO-2026-000019,DRAFT,CONFIRMED,2026-01-31T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000046,PO-2026-000019,CONFIRMED,CANCELLED,2026-02-01T10:00:00Z,Order cancelled due to demand revision or supplier notice,ProcurementManager
+POE-2026-000047,PO-2026-000020,DRAFT,CONFIRMED,2026-04-26T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000048,PO-2026-000020,CONFIRMED,IN_TRANSIT,2026-05-07T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000049,PO-2026-000021,DRAFT,CONFIRMED,2026-06-20T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000050,PO-2026-000022,DRAFT,CONFIRMED,2026-02-13T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000051,PO-2026-000022,CONFIRMED,IN_TRANSIT,2026-02-28T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000052,PO-2026-000023,DRAFT,CONFIRMED,2026-12-04T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000053,PO-2026-000023,CONFIRMED,IN_TRANSIT,2026-12-08T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000054,PO-2026-000023,IN_TRANSIT,DELIVERED,2026-12-13T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000055,PO-2026-000024,DRAFT,CONFIRMED,2026-03-03T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000056,PO-2026-000024,CONFIRMED,IN_TRANSIT,2026-03-06T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000057,PO-2026-000025,DRAFT,CONFIRMED,2026-01-22T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000058,PO-2026-000025,CONFIRMED,IN_TRANSIT,2026-02-04T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000059,PO-2026-000026,DRAFT,CONFIRMED,2026-04-12T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000060,PO-2026-000026,CONFIRMED,IN_TRANSIT,2026-04-30T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000061,PO-2026-000026,IN_TRANSIT,DELIVERED,2026-05-05T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000062,PO-2026-000027,DRAFT,CONFIRMED,2026-09-05T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000063,PO-2026-000027,CONFIRMED,IN_TRANSIT,2026-09-20T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000064,PO-2026-000028,DRAFT,CONFIRMED,2026-03-13T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000065,PO-2026-000028,CONFIRMED,CANCELLED,2026-03-14T10:00:00Z,Order cancelled due to demand revision or supplier notice,ProcurementManager
+POE-2026-000066,PO-2026-000029,DRAFT,CONFIRMED,2026-11-07T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000067,PO-2026-000029,CONFIRMED,IN_TRANSIT,2026-11-19T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000068,PO-2026-000029,IN_TRANSIT,DELIVERED,2026-11-24T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000069,PO-2026-000030,DRAFT,CONFIRMED,2026-08-07T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000070,PO-2026-000030,CONFIRMED,IN_TRANSIT,2026-09-10T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000071,PO-2026-000030,IN_TRANSIT,DELIVERED,2026-09-15T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000072,PO-2026-000031,DRAFT,CONFIRMED,2026-09-01T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000073,PO-2026-000031,CONFIRMED,IN_TRANSIT,2026-09-18T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000074,PO-2026-000032,DRAFT,CONFIRMED,2026-03-25T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000075,PO-2026-000032,CONFIRMED,IN_TRANSIT,2026-03-27T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000076,PO-2026-000032,IN_TRANSIT,DELIVERED,2026-04-06T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000077,PO-2026-000033,DRAFT,CONFIRMED,2026-05-15T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000078,PO-2026-000033,CONFIRMED,IN_TRANSIT,2026-05-29T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000079,PO-2026-000033,IN_TRANSIT,DELIVERED,2026-06-03T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000080,PO-2026-000034,DRAFT,CONFIRMED,2026-07-11T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000081,PO-2026-000034,CONFIRMED,IN_TRANSIT,2026-07-16T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000082,PO-2026-000034,IN_TRANSIT,DELIVERED,2026-07-21T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000083,PO-2026-000035,DRAFT,CONFIRMED,2026-08-29T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000084,PO-2026-000035,CONFIRMED,IN_TRANSIT,2026-09-17T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000085,PO-2026-000035,IN_TRANSIT,DELIVERED,2026-09-22T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000086,PO-2026-000036,DRAFT,CONFIRMED,2026-11-23T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000087,PO-2026-000036,CONFIRMED,IN_TRANSIT,2026-11-28T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000088,PO-2026-000036,IN_TRANSIT,DELIVERED,2026-12-11T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000089,PO-2026-000037,DRAFT,CONFIRMED,2026-03-02T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000090,PO-2026-000037,CONFIRMED,IN_TRANSIT,2026-03-12T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000091,PO-2026-000037,IN_TRANSIT,DELIVERED,2026-03-17T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000092,PO-2026-000038,DRAFT,CONFIRMED,2026-06-10T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000093,PO-2026-000038,CONFIRMED,IN_TRANSIT,2026-06-23T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000094,PO-2026-000039,DRAFT,CONFIRMED,2026-07-30T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000095,PO-2026-000040,DRAFT,CONFIRMED,2026-02-15T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000096,PO-2026-000040,CONFIRMED,CANCELLED,2026-02-16T10:00:00Z,Order cancelled due to demand revision or supplier notice,ProcurementManager
+POE-2026-000097,PO-2026-000041,DRAFT,CONFIRMED,2026-07-30T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000098,PO-2026-000041,CONFIRMED,IN_TRANSIT,2026-07-31T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000099,PO-2026-000041,IN_TRANSIT,DELIVERED,2026-08-05T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000100,PO-2026-000042,DRAFT,CONFIRMED,2026-04-21T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000101,PO-2026-000042,CONFIRMED,IN_TRANSIT,2026-04-23T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000102,PO-2026-000042,IN_TRANSIT,DELIVERED,2026-04-28T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000103,PO-2026-000043,DRAFT,CONFIRMED,2026-06-17T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000104,PO-2026-000043,CONFIRMED,IN_TRANSIT,2026-07-02T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000105,PO-2026-000043,IN_TRANSIT,DELIVERED,2026-07-07T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000106,PO-2026-000044,DRAFT,CONFIRMED,2026-06-11T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000107,PO-2026-000044,CONFIRMED,IN_TRANSIT,2026-07-14T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000108,PO-2026-000044,IN_TRANSIT,DELIVERED,2026-07-19T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000109,PO-2026-000045,DRAFT,CONFIRMED,2026-05-27T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000110,PO-2026-000045,CONFIRMED,IN_TRANSIT,2026-06-06T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000111,PO-2026-000046,DRAFT,CONFIRMED,2026-11-29T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000112,PO-2026-000046,CONFIRMED,CANCELLED,2026-11-30T10:00:00Z,Order cancelled due to demand revision or supplier notice,ProcurementManager
+POE-2026-000113,PO-2026-000047,DRAFT,CONFIRMED,2026-01-02T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000114,PO-2026-000047,CONFIRMED,IN_TRANSIT,2026-01-25T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000115,PO-2026-000047,IN_TRANSIT,DELIVERED,2026-01-30T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000116,PO-2026-000048,DRAFT,CONFIRMED,2026-09-14T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000117,PO-2026-000048,CONFIRMED,IN_TRANSIT,2026-09-23T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000118,PO-2026-000049,DRAFT,CONFIRMED,2026-07-08T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000119,PO-2026-000049,CONFIRMED,IN_TRANSIT,2026-07-29T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000120,PO-2026-000050,DRAFT,CONFIRMED,2026-06-11T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000121,PO-2026-000050,CONFIRMED,IN_TRANSIT,2026-06-12T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000122,PO-2026-000050,IN_TRANSIT,DELIVERED,2026-06-16T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000123,PO-2026-000051,DRAFT,CONFIRMED,2026-11-17T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000124,PO-2026-000051,CONFIRMED,IN_TRANSIT,2026-12-03T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000125,PO-2026-000052,DRAFT,CONFIRMED,2026-03-16T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000126,PO-2026-000052,CONFIRMED,IN_TRANSIT,2026-03-23T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000127,PO-2026-000052,IN_TRANSIT,DELIVERED,2026-03-28T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000128,PO-2026-000053,DRAFT,CONFIRMED,2026-08-23T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000129,PO-2026-000053,CONFIRMED,IN_TRANSIT,2026-08-31T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000130,PO-2026-000053,IN_TRANSIT,DELIVERED,2026-09-05T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000131,PO-2026-000054,DRAFT,CONFIRMED,2026-11-24T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000132,PO-2026-000054,CONFIRMED,IN_TRANSIT,2026-12-16T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000133,PO-2026-000054,IN_TRANSIT,DELIVERED,2026-12-21T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000134,PO-2026-000055,DRAFT,CONFIRMED,2026-10-03T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000135,PO-2026-000055,CONFIRMED,IN_TRANSIT,2026-10-09T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000136,PO-2026-000056,DRAFT,CONFIRMED,2026-09-19T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000137,PO-2026-000056,CONFIRMED,IN_TRANSIT,2026-10-07T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000138,PO-2026-000056,IN_TRANSIT,DELIVERED,2026-10-12T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000139,PO-2026-000057,DRAFT,CONFIRMED,2026-09-21T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000140,PO-2026-000057,CONFIRMED,IN_TRANSIT,2026-09-22T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000141,PO-2026-000057,IN_TRANSIT,DELIVERED,2026-09-30T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000142,PO-2026-000058,DRAFT,CONFIRMED,2026-10-08T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000143,PO-2026-000058,CONFIRMED,IN_TRANSIT,2026-10-20T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000144,PO-2026-000058,IN_TRANSIT,DELIVERED,2026-10-25T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000145,PO-2026-000059,DRAFT,CONFIRMED,2026-06-18T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000146,PO-2026-000059,CONFIRMED,IN_TRANSIT,2026-06-29T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000147,PO-2026-000059,IN_TRANSIT,DELIVERED,2026-07-04T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000148,PO-2026-000060,DRAFT,CONFIRMED,2026-07-11T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000149,PO-2026-000060,CONFIRMED,IN_TRANSIT,2026-07-16T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000150,PO-2026-000060,IN_TRANSIT,DELIVERED,2026-07-21T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000151,PO-2026-000061,DRAFT,CONFIRMED,2026-05-18T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000152,PO-2026-000061,CONFIRMED,IN_TRANSIT,2026-05-28T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000153,PO-2026-000062,DRAFT,CONFIRMED,2026-01-22T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000154,PO-2026-000062,CONFIRMED,IN_TRANSIT,2026-02-01T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000155,PO-2026-000062,IN_TRANSIT,DELIVERED,2026-02-06T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000156,PO-2026-000063,DRAFT,CONFIRMED,2026-01-03T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000157,PO-2026-000063,CONFIRMED,IN_TRANSIT,2026-01-04T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000158,PO-2026-000064,DRAFT,CONFIRMED,2026-03-22T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000159,PO-2026-000064,CONFIRMED,IN_TRANSIT,2026-03-28T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000160,PO-2026-000064,IN_TRANSIT,DELIVERED,2026-04-02T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000161,PO-2026-000065,DRAFT,CONFIRMED,2026-08-06T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000162,PO-2026-000065,CONFIRMED,IN_TRANSIT,2026-08-12T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000163,PO-2026-000066,DRAFT,CONFIRMED,2026-09-25T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000164,PO-2026-000066,CONFIRMED,IN_TRANSIT,2026-10-23T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000165,PO-2026-000066,IN_TRANSIT,DELIVERED,2026-10-28T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000166,PO-2026-000067,DRAFT,CONFIRMED,2026-10-09T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000167,PO-2026-000067,CONFIRMED,IN_TRANSIT,2026-11-01T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000168,PO-2026-000067,IN_TRANSIT,DELIVERED,2026-11-11T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000169,PO-2026-000068,DRAFT,CONFIRMED,2026-03-05T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000170,PO-2026-000068,CONFIRMED,IN_TRANSIT,2026-03-21T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000171,PO-2026-000068,IN_TRANSIT,DELIVERED,2026-03-26T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000172,PO-2026-000069,DRAFT,CONFIRMED,2026-10-11T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000173,PO-2026-000069,CONFIRMED,IN_TRANSIT,2026-10-22T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000174,PO-2026-000069,IN_TRANSIT,DELIVERED,2026-10-27T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000175,PO-2026-000070,DRAFT,CONFIRMED,2026-01-21T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000176,PO-2026-000070,CONFIRMED,IN_TRANSIT,2026-02-07T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000177,PO-2026-000070,IN_TRANSIT,DELIVERED,2026-02-12T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000178,PO-2026-000071,DRAFT,CONFIRMED,2026-08-18T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000179,PO-2026-000071,CONFIRMED,IN_TRANSIT,2026-08-19T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000180,PO-2026-000071,IN_TRANSIT,DELIVERED,2026-08-22T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000181,PO-2026-000072,DRAFT,CONFIRMED,2026-02-17T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000182,PO-2026-000072,CONFIRMED,IN_TRANSIT,2026-02-20T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000183,PO-2026-000072,IN_TRANSIT,DELIVERED,2026-03-01T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000184,PO-2026-000073,DRAFT,CONFIRMED,2026-10-14T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000185,PO-2026-000073,CONFIRMED,IN_TRANSIT,2026-10-28T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000186,PO-2026-000074,DRAFT,CONFIRMED,2026-08-22T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000187,PO-2026-000074,CONFIRMED,IN_TRANSIT,2026-08-30T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000188,PO-2026-000074,IN_TRANSIT,DELIVERED,2026-09-04T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000189,PO-2026-000075,DRAFT,CONFIRMED,2026-06-23T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000190,PO-2026-000075,CONFIRMED,IN_TRANSIT,2026-06-29T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000191,PO-2026-000076,DRAFT,CONFIRMED,2026-09-16T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000192,PO-2026-000076,CONFIRMED,IN_TRANSIT,2026-09-19T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000193,PO-2026-000077,DRAFT,CONFIRMED,2026-01-21T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000194,PO-2026-000077,CONFIRMED,IN_TRANSIT,2026-01-26T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000195,PO-2026-000077,IN_TRANSIT,DELIVERED,2026-01-31T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000196,PO-2026-000078,DRAFT,CONFIRMED,2026-10-27T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000197,PO-2026-000078,CONFIRMED,IN_TRANSIT,2026-11-15T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000198,PO-2026-000078,IN_TRANSIT,DELIVERED,2026-11-20T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000199,PO-2026-000079,DRAFT,CONFIRMED,2026-05-17T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000200,PO-2026-000079,CONFIRMED,IN_TRANSIT,2026-05-23T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000201,PO-2026-000080,DRAFT,CONFIRMED,2026-05-20T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000202,PO-2026-000080,CONFIRMED,IN_TRANSIT,2026-05-26T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000203,PO-2026-000081,DRAFT,CONFIRMED,2026-07-06T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000204,PO-2026-000081,CONFIRMED,IN_TRANSIT,2026-07-24T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000205,PO-2026-000082,DRAFT,CONFIRMED,2026-01-25T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000206,PO-2026-000082,CONFIRMED,IN_TRANSIT,2026-02-04T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000207,PO-2026-000083,DRAFT,CONFIRMED,2026-06-09T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000208,PO-2026-000083,CONFIRMED,IN_TRANSIT,2026-06-24T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000209,PO-2026-000084,DRAFT,CONFIRMED,2026-01-12T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000210,PO-2026-000084,CONFIRMED,IN_TRANSIT,2026-01-24T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000211,PO-2026-000085,DRAFT,CONFIRMED,2026-01-30T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000212,PO-2026-000085,CONFIRMED,IN_TRANSIT,2026-02-05T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000213,PO-2026-000085,IN_TRANSIT,DELIVERED,2026-02-10T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000214,PO-2026-000086,DRAFT,CONFIRMED,2026-08-10T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000215,PO-2026-000086,CONFIRMED,IN_TRANSIT,2026-08-13T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000216,PO-2026-000087,DRAFT,CONFIRMED,2026-08-15T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000217,PO-2026-000088,DRAFT,CONFIRMED,2026-02-14T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000218,PO-2026-000088,CONFIRMED,IN_TRANSIT,2026-02-20T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000219,PO-2026-000089,DRAFT,CONFIRMED,2026-12-02T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000220,PO-2026-000089,CONFIRMED,IN_TRANSIT,2026-12-12T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000221,PO-2026-000090,DRAFT,CONFIRMED,2026-06-07T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000222,PO-2026-000091,DRAFT,CONFIRMED,2026-01-02T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000223,PO-2026-000091,CONFIRMED,IN_TRANSIT,2026-02-07T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000224,PO-2026-000091,IN_TRANSIT,DELIVERED,2026-02-12T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000225,PO-2026-000092,DRAFT,CONFIRMED,2026-08-24T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000226,PO-2026-000093,DRAFT,CONFIRMED,2026-01-12T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000227,PO-2026-000093,CONFIRMED,IN_TRANSIT,2026-01-22T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000228,PO-2026-000093,IN_TRANSIT,DELIVERED,2026-01-27T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000229,PO-2026-000094,DRAFT,CONFIRMED,2026-05-02T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000230,PO-2026-000094,CONFIRMED,IN_TRANSIT,2026-05-03T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000231,PO-2026-000095,DRAFT,CONFIRMED,2026-09-12T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000232,PO-2026-000095,CONFIRMED,IN_TRANSIT,2026-09-26T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000233,PO-2026-000096,DRAFT,CONFIRMED,2026-04-19T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000234,PO-2026-000096,CONFIRMED,IN_TRANSIT,2026-04-22T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000235,PO-2026-000097,DRAFT,CONFIRMED,2026-10-07T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000236,PO-2026-000097,CONFIRMED,IN_TRANSIT,2026-10-25T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000237,PO-2026-000097,IN_TRANSIT,DELIVERED,2026-10-30T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000238,PO-2026-000098,DRAFT,CONFIRMED,2026-07-01T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000239,PO-2026-000099,DRAFT,CONFIRMED,2026-02-03T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000240,PO-2026-000099,CONFIRMED,IN_TRANSIT,2026-02-04T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000241,PO-2026-000099,IN_TRANSIT,DELIVERED,2026-02-08T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving
+POE-2026-000242,PO-2026-000100,DRAFT,CONFIRMED,2026-07-03T08:00:00Z,Purchase order approved and confirmed by supplier,BuyerSystem
+POE-2026-000243,PO-2026-000100,CONFIRMED,IN_TRANSIT,2026-07-04T12:00:00Z,"Shipment picked up by carrier, in transit to destination",LogisticsCarrier
+POE-2026-000244,PO-2026-000100,IN_TRANSIT,DELIVERED,2026-07-07T16:00:00Z,"Goods received, inspected, and checked into warehouse inventory",WarehouseReceiving

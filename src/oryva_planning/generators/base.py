@@ -50,7 +50,10 @@ def validate_and_sort_dataframe(
     # Validate first and last row (plus sample) to ensure Pydantic compliance
     sample_indices = [0, len(df) - 1] if len(df) > 1 else [0]
     for idx in sample_indices:
-        row_dict = df.iloc[idx].to_dict()
+        row_dict = {
+            k: (None if pd.isna(v) else v)
+            for k, v in df.iloc[idx].to_dict().items()
+        }
         model(**row_dict)
 
     return df

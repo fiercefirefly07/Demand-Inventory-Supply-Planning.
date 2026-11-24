@@ -1,0 +1,11 @@
+supplier_id,name,country,reliability_score,tier,is_active,effective_start_date,effective_end_date
+SUP-000001,Precision Technologies (USA),USA,0.9536,TIER_2,True,2026-01-01,2026-12-31
+SUP-000002,Cascade Precision Works (USA),USA,0.9407,STRATEGIC,True,2026-01-01,2026-12-31
+SUP-000003,Nexus Materials (GER),Germany,0.9819,TIER_1,True,2026-01-01,2026-12-31
+SUP-000004,Nexus Fabrication (JAP),Japan,0.9871,TIER_2,True,2026-01-01,2026-12-31
+SUP-000005,Quantum Holdings (CAN),Canada,0.9667,TIER_1,True,2026-01-01,2026-12-31
+SUP-000006,Cascade Holdings (USA),USA,0.9825,TIER_1,True,2026-01-01,2026-12-31
+SUP-000007,Frontier Fabrication (USA),USA,0.9675,STRATEGIC,True,2026-01-01,2026-12-31
+SUP-000008,Zenith Global Supplies (USA),USA,0.9715,TIER_1,True,2026-01-01,2026-12-31
+SUP-000009,Sterling Materials (USA),USA,0.9844,STRATEGIC,True,2026-01-01,2026-12-31
+SUP-000010,Alliance Technologies (CAN),Canada,0.7408,TIER_1,True,2026-01-01,2026-12-31

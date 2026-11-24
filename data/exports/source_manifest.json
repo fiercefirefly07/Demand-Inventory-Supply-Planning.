@@ -1,0 +1,264 @@
+{
+  "project": "Oryva AI - Demand, Inventory & Supply Planning",
+  "provenance": "Fully synthetic, no external data",
+  "license": "MIT",
+  "deadline": "2026-11-25",
+  "generator_seed": 20261022,
+  "planning_year": 2026,
+  "planning_horizon_weeks": 52,
+  "scale": "starter",
+  "total_records_generated": 91451,
+  "tables": {
+    "sku": {
+      "row_count": 50,
+      "columns": [
+        "sku_id",
+        "name",
+        "category",
+        "unit_of_measure",
+        "unit_cost",
+        "selling_price",
+        "holding_cost_rate",
+        "lifecycle_status",
+        "effective_start_date",
+        "effective_end_date"
+      ],
+      "primary_key": "sku_id"
+    },
+    "location": {
+      "row_count": 5,
+      "columns": [
+        "location_id",
+        "name",
+        "type",
+        "region",
+        "holding_cost_per_unit_day",
+        "capacity_units",
+        "is_active",
+        "effective_start_date",
+        "effective_end_date"
+      ],
+      "primary_key": "location_id"
+    },
+    "supplier": {
+      "row_count": 10,
+      "columns": [
+        "supplier_id",
+        "name",
+        "country",
+        "reliability_score",
+        "tier",
+        "is_active",
+        "effective_start_date",
+        "effective_end_date"
+      ],
+      "primary_key": "supplier_id"
+    },
+    "sku_supplier": {
+      "row_count": 122,
+      "columns": [
+        "sku_supplier_id",
+        "sku_id",
+        "supplier_id",
+        "is_primary",
+        "supplier_part_number",
+        "effective_start_date",
+        "effective_end_date"
+      ],
+      "primary_key": "sku_supplier_id"
+    },
+    "sku_substitute": {
+      "row_count": 50,
+      "columns": [
+        "substitute_id",
+        "primary_sku_id",
+        "substitute_sku_id",
+        "conversion_rate",
+        "approved",
+        "effective_start_date",
+        "effective_end_date"
+      ],
+      "primary_key": "substitute_id"
+    },
+    "forecastdemand": {
+      "row_count": 13000,
+      "columns": [
+        "demand_id",
+        "sku_id",
+        "location_id",
+        "forecast_week",
+        "forecast_date",
+        "mean_demand",
+        "forecast_qty",
+        "unit_of_measure"
+      ],
+      "primary_key": "demand_id"
+    },
+    "inventory": {
+      "row_count": 250,
+      "columns": [
+        "inventory_id",
+        "sku_id",
+        "location_id",
+        "on_hand_qty",
+        "safety_stock_qty",
+        "reorder_point",
+        "unit_of_measure",
+        "effective_date",
+        "status"
+      ],
+      "primary_key": "inventory_id"
+    },
+    "suppliercapacity": {
+      "row_count": 6344,
+      "columns": [
+        "capacity_id",
+        "supplier_id",
+        "sku_id",
+        "period_week",
+        "max_weekly_capacity",
+        "committed_qty",
+        "available_capacity",
+        "effective_start_date",
+        "effective_end_date"
+      ],
+      "primary_key": "capacity_id"
+    },
+    "leadtime": {
+      "row_count": 481,
+      "columns": [
+        "lead_time_id",
+        "supplier_id",
+        "sku_id",
+        "destination_location_id",
+        "planned_lead_time_days",
+        "minimum_order_qty",
+        "order_multiple_qty",
+        "expedited_lead_time_days",
+        "effective_start_date",
+        "effective_end_date"
+      ],
+      "primary_key": "lead_time_id"
+    },
+    "purchaseorder": {
+      "row_count": 100,
+      "columns": [
+        "po_id",
+        "supplier_id",
+        "sku_id",
+        "destination_location_id",
+        "order_qty",
+        "unit_cost",
+        "currency",
+        "order_date",
+        "promised_delivery_date",
+        "revised_delivery_date",
+        "actual_delivery_date",
+        "current_status",
+        "created_at"
+      ],
+      "primary_key": "po_id"
+    },
+    "purchaseorderevent": {
+      "row_count": 244,
+      "columns": [
+        "event_id",
+        "po_id",
+        "from_status",
+        "to_status",
+        "event_ts",
+        "event_reason",
+        "actor"
+      ],
+      "primary_key": "event_id"
+    },
+    "productionplan": {
+      "row_count": 2808,
+      "columns": [
+        "plan_id",
+        "sku_id",
+        "location_id",
+        "planned_week",
+        "planned_run_date",
+        "planned_output_qty",
+        "actual_output_qty",
+        "status",
+        "created_at"
+      ],
+      "primary_key": "plan_id"
+    },
+    "projected_balance": {
+      "row_count": 13000,
+      "columns": [
+        "sku_id",
+        "location_id",
+        "week_num",
+        "week_str",
+        "opening_stock",
+        "inbound_po_qty",
+        "inbound_prod_qty",
+        "total_inbound_qty",
+        "demand_qty",
+        "projected_balance"
+      ],
+      "primary_key": "sku_id"
+    },
+    "shortage": {
+      "row_count": 9460,
+      "columns": [
+        "shortage_id",
+        "sku_id",
+        "location_id",
+        "shortage_week",
+        "shortage_date",
+        "shortage_qty",
+        "cumulative_shortage_qty",
+        "unmet_demand_qty",
+        "root_cause",
+        "priority_score",
+        "priority_rank",
+        "status",
+        "created_at"
+      ],
+      "primary_key": "shortage_id"
+    },
+    "shortageevidence": {
+      "row_count": 18920,
+      "columns": [
+        "evidence_id",
+        "shortage_id",
+        "source_entity",
+        "source_id",
+        "impact_description",
+        "metric_value"
+      ],
+      "primary_key": "evidence_id"
+    },
+    "mitigationoption": {
+      "row_count": 26607,
+      "columns": [
+        "mitigation_id",
+        "shortage_id",
+        "action_type",
+        "substitute_sku_id",
+        "expedited_po_id",
+        "alt_location_id",
+        "cost",
+        "service_level_impact",
+        "lead_time_days",
+        "capacity_check_passed",
+        "policy_check_passed",
+        "score",
+        "rank",
+        "status"
+      ],
+      "primary_key": "mitigation_id"
+    }
+  },
+  "distributions_used": {
+    "demand": "Vectorized Pareto lognormal + annual seasonality + spike weeks",
+    "supplier_lead_time": "Gamma distribution with unreliability tail",
+    "sku_costs": "Category-specific lognormal with markup selling price",
+    "facility_capacities": "Uniform scaled across hub, regional, and plant tiers"
+  }
+}
