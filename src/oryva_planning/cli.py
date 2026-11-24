@@ -11,6 +11,7 @@ from rich.console import Console
 from rich.table import Table
 
 from oryva_planning.config import PlanningConfig
+from oryva_planning.generators import generate_master_datasets
 from oryva_planning.schema import (
     CORE_ENTITIES,
     ENTITY_RELATIONSHIPS,
@@ -124,8 +125,25 @@ def generate(
     console.print(f"  - Suppliers: [yellow]{cfg.scale.num_suppliers}[/yellow]")
     console.print(f"  - Inbound POs: [yellow]{cfg.scale.num_inbound_pos}[/yellow]")
     console.print(f"  - Output input dir: [yellow]{cfg.paths.input_dir}[/yellow]")
-    console.print(f"  - Ground truth dir: [yellow]{cfg.paths.ground_truth_dir}[/yellow]")
-    console.print("[dim]Pipeline stages: config -> schema -> generators -> planning -> anomalies -> validators -> exporters[/dim]")
+    console.print(f"  - Ground truth dir: [yellow]{cfg.paths.ground_truth_dir}[/yellow]\n")
+
+    console.print("[bold green]Executing Phase 2: Generating Master Data & Bridge Tables...[/bold green]")
+    datasets = generate_master_datasets(cfg, save_to_disk=True)
+
+    summary_table = Table(title="Generated Master Datasets Summary", show_header=True, header_style="bold blue")
+    summary_table.add_column("Table Name", style="cyan")
+    summary_table.add_column("Row Count", justify="right", style="green")
+    summary_table.add_column("Primary Key Sample", style="yellow")
+    summary_table.add_column("File Path", style="dim")
+
+    for name, df in datasets.items():
+        pk_col = df.columns[0]
+        sample_pk = f"{df[pk_col].iloc[0]} .. {df[pk_col].iloc[-1]}" if len(df) > 0 else "N/A"
+        file_path = f"{cfg.paths.input_dir}/{name}.csv"
+        summary_table.add_row(name, f"{len(df):,}", sample_pk, file_path)
+
+    console.print(summary_table)
+    console.print(f"[bold green]Master data generation complete. Files saved to {cfg.paths.input_dir}/[/bold green]")
 
 
 @app.command()
