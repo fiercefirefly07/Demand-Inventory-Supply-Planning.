@@ -123,12 +123,40 @@ python -m oryva_planning.cli export --config config/starter.yaml --export-dir da
 
 # 8. Run Pytest Test Suite
 pytest tests/ -v
+
+# 9. Launch Interactive Streamlit Planning Dashboard
+python -m oryva_planning.cli dashboard
+# or: streamlit run src/oryva_planning/dashboard.py
+
+# 10. Generate Zero-Dependency Static HTML Dashboard Report
+python -m oryva_planning.cli report --output docs/dashboard.html
 ```
 
 ---
 
-## 6. Deliverables & Documentation
+## 6. Dashboards: Streamlit & Static HTML
 
+To provide both rich interactive planning exploration and instant zero-dependency auditability, two dashboards are included:
+
+1. **Interactive Streamlit App (`src/oryva_planning/dashboard.py`)**:
+   - Filter by SKU and Location to inspect weekly balance trajectories (opening stock, inbound orders, forecast demand, and projected available balance).
+   - Real-time drilldown into shortages with causal evidence row links and priority rank order.
+   - Mitigation action comparator analyzing trade-offs between cost, lead time, and service level impact.
+   - Anomaly benchmark visualizer (100% precision & recall metrics table).
+   - Interactive DuckDB SQL invariant query runner.
+   - Run via: `python -m oryva_planning.cli dashboard` or `make dashboard`.
+
+2. **Zero-Dependency Static HTML Dashboard ([`docs/dashboard.html`](file:///d:/oryva_assignment/docs/dashboard.html))**:
+   - Self-contained HTML5 report using Tailwind CSS and Chart.js.
+   - Openable in any web browser without needing a running Python server.
+   - Features KPI metric cards, Chart.js time-series charts, root cause breakdown doughnut chart, proposed mitigation actions bar chart, and shortage drilldown table.
+   - Re-generate via: `python -m oryva_planning.cli report` or `make report`.
+
+---
+
+## 7. Deliverables & Documentation
+
+- [**Interactive HTML Dashboard**](file:///d:/oryva_assignment/docs/dashboard.html): Self-contained, responsive supply chain planning dashboard.
 - [**Data Dictionary**](file:///d:/oryva_assignment/docs/data_dictionary.md): Comprehensive dictionary with field names, types, constraints, and descriptions.
 - [**SQL DDL Schema**](file:///d:/oryva_assignment/docs/schema.sql): Standard ANSI DDL for relational database initialization.
 - [**Reproducibility Audit Report**](file:///d:/oryva_assignment/reproducibility_report.md): Row counts and SHA-256 checksums across independent cold-start runs.
