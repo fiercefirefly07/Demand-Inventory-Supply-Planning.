@@ -28,6 +28,9 @@ from oryva_planning.schema import (
     generate_markdown_data_dictionary,
     generate_sql_ddl,
 )
+from oryva_planning.report import generate_static_html_dashboard
+import subprocess
+import sys
 
 app = typer.Typer(
     name="oryva-planning",
@@ -301,6 +304,39 @@ def export(
     console.print(f"  - Source manifest generated at: [yellow]{manifest_path}[/yellow]")
 
     console.print(f"\n[bold green]Multi-format exports completed successfully![/bold green]")
+
+
+@app.command()
+def report(
+    config_path: Path = typer.Option(
+        Path("config/starter.yaml"), "--config", "-c", help="Configuration file"
+    ),
+    output_html: Path = typer.Option(
+        Path("docs/dashboard.html"), "--output", "-o", help="Target HTML report file"
+    ),
+):
+    """Generate publication-grade static HTML dashboard with Tailwind CSS & Chart.js."""
+    cfg = PlanningConfig.load_from_yaml(config_path)
+    console.print(f"[bold cyan]Generating static HTML dashboard for {cfg.scale.name}...[/bold cyan]")
+    datasets = generate_all_datasets(cfg, save_to_disk=False)
+    planning_results = run_planning_engine(datasets, cfg, save_to_disk=False)
+    all_tables = {**datasets, **planning_results}
+    out = generate_static_html_dashboard(all_tables, output_html)
+    console.print(f"[bold green]Static HTML dashboard created successfully at:[/bold green] [yellow]{out}[/yellow]")
+
+
+@app.command()
+def dashboard(
+    port: int = typer.Option(8501, "--port", "-p", help="Port for Streamlit server"),
+):
+    """Launch the interactive Streamlit Planning Dashboard in local browser."""
+    dashboard_script = Path(__file__).parent / "dashboard.py"
+    console.print(f"[bold cyan]Launching interactive Streamlit Dashboard on port {port}...[/bold cyan]")
+    cmd = [sys.executable, "-m", "streamlit", "run", str(dashboard_script), "--server.port", str(port)]
+    try:
+        subprocess.run(cmd, check=True)
+    except KeyboardInterrupt:
+        console.print("\n[yellow]Streamlit dashboard stopped.[/yellow]")
 
 
 if __name__ == "__main__":

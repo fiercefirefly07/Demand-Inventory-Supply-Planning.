@@ -1,4 +1,4 @@
-.PHONY: setup generate-starter generate-full validate test repro detect-anomalies export clean help
+.PHONY: setup generate-starter generate-full validate test repro detect-anomalies export dashboard report clean help
 
 PYTHON ?= python
 
@@ -12,6 +12,8 @@ help:
 	@echo "  make repro            - Verify determinism and generate reproducibility report"
 	@echo "  make detect-anomalies - Run 5 anomaly injectors and evaluate detector precision/recall"
 	@echo "  make export           - Export datasets to CSV, JSON, SQL seed, and SQLite database"
+	@echo "  make dashboard        - Launch the interactive Streamlit UI dashboard"
+	@echo "  make report           - Generate publication-grade static HTML dashboard (docs/dashboard.html)"
 	@echo "  make clean            - Remove build artifacts and temporary caches"
 
 setup:
@@ -37,6 +39,12 @@ detect-anomalies:
 
 export:
 	$(PYTHON) -m oryva_planning.cli export --config config/starter.yaml
+
+dashboard:
+	$(PYTHON) -m oryva_planning.cli dashboard
+
+report:
+	$(PYTHON) -m oryva_planning.cli report --output docs/dashboard.html
 
 clean:
 	$(PYTHON) -c "import shutil, pathlib; [shutil.rmtree(p, ignore_errors=True) for p in pathlib.Path('.').rglob('__pycache__')]"
